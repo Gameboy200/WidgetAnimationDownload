@@ -23,6 +23,7 @@ jobs:
 
       - name: Build and archive app
         run: |
+          ls
           mkdir -p build
           ls
           xcodebuild -scheme WidgetAnimation \
