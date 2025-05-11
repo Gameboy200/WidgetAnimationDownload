@@ -22,7 +22,7 @@ jobs:
           ls /
           ls
           ls /Users/runner/work/
-          ls /Users/runner/work/WidgetAnimationDownload
+          ls /Users/runner/work/WidgetAnimationDownload/WidgetAnimationDownload
 
       - name: Build and archive app
         run: |
