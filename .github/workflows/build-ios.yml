@@ -16,10 +16,12 @@ jobs:
         with:
           xcode-version: latest-stable
 
-     # - name: Set up Xcode version
-      #  run: |
-       #   sudo xcode-select -s /Applications/Xcode_15.2.app  # Adjust version if needed
-        #  echo /Applications/
+      - name: Debug Prints
+        run: |
+          ls /Applications/
+          ls /
+          ls
+          ls /Users/
 
       - name: Build and archive app
         run: |
