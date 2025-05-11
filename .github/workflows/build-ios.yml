@@ -21,7 +21,7 @@ jobs:
           ls /Applications/
           ls /
           ls
-          ls /Users/
+          ls /Users/runner
 
       - name: Build and archive app
         run: |
