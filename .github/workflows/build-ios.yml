@@ -21,7 +21,8 @@ jobs:
           ls /Applications/
           ls /
           ls
-          ls /Users/runner
+          ls /Users/runner/work/
+          ls /Users/runner/work/WidgetAnimationDownload
 
       - name: Build and archive app
         run: |
